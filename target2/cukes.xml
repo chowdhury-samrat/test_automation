@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.900975">
+    <testcase classname="Search and place order for Vegetables" name="Search for items and validate results" time="10.900975">
+        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepDefinations.MyStepDefinitions.user_search_for_something_vegetable(MyStepDefinitions.java:33)&#13;&#10;&#9;at ✽.When User search for &quot;Cucumber&quot; vegetable(search.feature:5)&#13;&#10;">
+            <![CDATA[Given User is on Greencart landing page.....................................passed
+When User search for "Cucumber" vegetable...................................failed
+Then "Cucumber" results are displayed.......................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepDefinations.MyStepDefinitions.user_search_for_something_vegetable(MyStepDefinitions.java:33)
+	at ✽.When User search for "Cucumber" vegetable(search.feature:5)
+]]>
+        </failure>
+    </testcase>
+</testsuite>
